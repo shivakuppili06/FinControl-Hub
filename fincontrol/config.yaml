@@ -1,0 +1,13 @@
+controls:
+  recon_tolerance: 1000
+  pnl_pct_threshold: 0.10
+  pnl_abs_threshold: 50000
+  lcr_minimum: 1.0
+  inflow_cap: 0.75
+  ipv_threshold_bps:
+    Equity: 100
+    Bond: 50
+    FX: 20
+    Derivative: 150
+paths:
+  db_path: "output/fincontrol.db"
